@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    "@nuxtjs/tailwindcss",
-    "nuxt-icon"
+    "nuxt-icon",
+    "@nuxt/ui",
+    "@hebilicious/vue-query-nuxt"
   ]
 })
